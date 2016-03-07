@@ -6,5 +6,5 @@ function myFunction() {
                     it = it% 2;
                     image.src= "Photos/Test_"+it+ ".jpg";
                     it++;
-                    }, 2000);
+                    }, 3000);
             }       
