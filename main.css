@@ -1,0 +1,170 @@
+br.push{
+    line-height: 5;
+}
+
+h1.center{
+    color:azure;
+    font-size: 300%;
+    /*font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    left: 0;
+    line-height: px;
+    margin: auto;
+    margin-top: -100px;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;    
+}
+body.pub{
+    background-color: #596173
+;
+;
+}
+
+h1.bio{
+    color:white;
+    font-size: 300%;
+    /*font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    left: ;
+    line-height: px;
+    margin: auto;
+    margin-top: -250px;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;    
+}
+body {margin:0;
+}
+img.bottom{
+    text-align: center;
+    display: inline;
+    overflow: auto;
+    position: relative;
+    display: inline;   
+}
+#icon{
+    position:fixed;bottom:0;
+    
+}
+
+h3.desc{
+        position: absolute;
+        text-align: center;
+        color: aqua;
+        top:50%;
+        font-size: 100%;
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+        margin: auto;
+        margin-top: -250px;
+        position:absolute;
+        text-align: center;
+        top: 100%;
+        width: 100%;    
+   
+}
+
+h3.center{
+        font-size: 170%;
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    
+}
+p.pub{
+        font-size: 115%;
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    
+}
+h2.center{
+    color:azure;
+    font-style: italic;
+    
+    font-size: 130%;
+    left: 0;
+    line-height: 130px;
+    margin: auto;
+    margin-top: -100px;
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;    
+}
+
+#test_gallery{
+    border-style: solid;
+    outline: 5px solid azure;
+    border-width: 15px;
+    border-color:black;
+    position: absolute;
+    margin-top: 280px;
+    margin-top: -250px;
+    left:33.5%;
+    text-align: center;
+    top: 65%;
+    width: 30%; 
+    
+  
+}
+
+p.bio{
+    font-family: Lato, sans-serif;
+    background-color: lightgrey;
+    border: 25px solid #9494b8;
+    color:black;    
+    font-size: 130%;
+    left: 0;
+    line-height: px;
+    margin: auto;
+    margin-top: 430px;
+    text-align: center;
+    top: 50%;  
+    word-wrap: break-word;
+    width: 50%;
+}
+ul.navi{
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    list-style-type: none;
+}
+ul.footer{
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;bottom:0;
+    bottom: 0;
+    width: 100%; 
+    list-style-type: none;
+    text-align: center;
+}
+li.navi{
+    display:inline-block;
+}
+
+#nav{
+    text-align: center;
+}
+
+li a{
+font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    font-size: 130%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(active) {
+    background-color:lightsteelblue;
+}
+
+.active {
+    background-color:lightsteelblue;
+}

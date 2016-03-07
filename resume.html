@@ -1,0 +1,746 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Julian Gilyard</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	<link rel="stylesheet" href="main.css">
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+        div.datepull-right{color:white;}
+body {
+	background:  #9494b8;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+        strong{color:white;}
+a {
+	color: azure;
+}
+        div.awarder{color:white;}
+        div.summary{color:white;}
+a:focus,
+a:hover {
+    color: white;
+	text-decoration: none;
+}
+p {
+    color:white;
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: white;
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+ul.courses{
+            color:white;
+        }
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+li.bullet{
+            color:white;
+        }
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: white;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: white;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+    color: white;
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+    color: white;
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 5px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: azure;
+	font-size: 24px;
+}
+#content h3 {
+	color: azure;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+    color: white;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+    color:white;
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+    color:white;
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 0px solid ;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: ;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	   <div id="nav">
+        <ul class="navi">
+            <li class="navi"><a href="index.html">Home</a></li> 
+            <li class="navi"><a href="blog.html"> Blog</a></li>        
+            <li class="navi"><a class ="active" href="resume.html">Resume</a></li>
+            <li class ="navi"><a href="publications.html">Publications</a></li>
+            <li class="navi"><a href="#Inquires">Inquires</a></li>
+            </ul>
+        </div>
+	<header id="header">
+
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="ff958a93969e91989693869e8d9bbf98929e9693d19c9092">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(919)-841-6968</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="juliangilyard.com">juliangilyard.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Julian Gilyard is a North Carolina native who hails from Raleigh, North Carolina. After finishing highigh school, he matriculated to Wake Forest University. Wake Forest has been enjoyable, while presenting him with a plthora of new expereinces. As a heavily involved Demon Deacon, Julian Gilyard has served as a Resident Adviser, President&#x27;s Aide, member of the Honor and Ethics Council, member of the Student Life Committee, memeber of the Techonology Innovation Group, First Year in Focus Mentor, a member of the Alchol and Drug Prevention Coalition, and Vice President of UPE(Computer Science Honor Soceity). While he stays busy, Julian throughly enjoys new puzzles and experiences that increase his ability to learn. Currently, he is always looking for new crossroads between technology, finance, and economic theory. Just to set the record straight...VIM &gt; EMACS</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						github
+					</strong>
+					<div class="username">
+							jgilyard
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						linkedin
+					</strong>
+					<div class="username">
+							Julian Gilyard
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>UBS Investment Bank</span>
+					<span class="date">
+						2015-6-01 — 2015-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://UBS.com">http://UBS.com</a>
+				</div>
+				<div class="position">
+					Sales and Trade Intern
+				</div>
+				<div class="summary">
+					<p>UBS is the World Largest Investment Bank and an industry leader in technology, finance and economic trends. UBS highlights that they were ranked the best Investment Bank, globally in 2015.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Created independent models to pull live data from Bloomberg’s feeds in order to provide analysis for FX option steepness</li>
+					<li class="bullet">Drafted and introduced proposals for models suggesting trades to leverage the industry of the Securities Based Lending in HNW</li>
+					<li class="bullet">Wrote an Excel based applications for dynamically determining PNL for different users combinations with currency pairs</li>
+					<li class="bullet">Presented and prepared unique options strategies for a $200 Million hedge fund looking to capitalize on market disruptions</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National Security Agency / National Science Foundation</span>
+					<span class="date">
+						2014-06-01 — 2014-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://hpcreu.umbc.edu/">http://hpcreu.umbc.edu/</a>
+				</div>
+				<div class="position">
+					High Performance Computing and Analytics Research Intern
+				</div>
+				<div class="summary">
+					<p>Participants will work in teams on projects brought in by high caliber researchers from academia and industry, closely supported by experienced graduate students and faculty members in collaboration with the Center for Interdisciplinary Research and Consulting. The participants will acquire the skills necessary to perform hands-on high performance computing on a state-of-the-art distributed-memory cluster in the UMBC High Performance Computing Facility.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Collaborated to solve nonlinear problems by utilizing distributive computing methods with the Jacobi method by restructuring open source rending code to be optimized for real-time solutions while comparing over 100,000 independent models</li>
+					<li class="bullet">Responsible for maintaining and executing program parameters on UMBC’s $1.5 million (247 Node) High Performance Computing Cluster by utilizing SLURM scripts for providing priority resource management when altering the process state  </li>
+					<li class="bullet">Collaborated to Write Paper for SIAM with 3 other students while presenting in Salt Lake City.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>United States House of Representatives</span>
+					<span class="date">
+						2011-01-01 — 2011-06-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Cloakroom Page
+				</div>
+				<div class="summary">
+					<p>Pages are an integral part of the congressional expereince as they consistently interface with congressman and work to provide enjoyable atmostphere to those who visit the US. Hose. Cloakroom Pages have close proximity to Congresmen, as only 1 out of 12 pages is chosen to be a cloakroom page. There pages interface directly with congressmen and help deliver messages.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Selected as one of 52 students in the United States to serve for the House of Representatives</li>
+					<li class="bullet">Presided over and maintained a current $35,000 NVIDIA research grant to designate Wake Forest as a NVIDIA Research School</li>
+					<li class="bullet">Received Google CS4HS grant and conducted workshops to educate teachers on implementing technology in their classrooms</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Wake Forest University—Dr. Cho Research Group</span>
+					<span class="date">
+						2013 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://users.wfu.edu/choss/">http://users.wfu.edu/choss/</a>
+				</div>
+				<div class="position">
+					Lead Model and Algorithm Researcher
+				</div>
+				<div class="summary">
+					<p>Dr. Samuel Cho&#x27;s reaserch group is the premier molecular dynamics simluation group at Wake Forest University. Sutdents from a myrid of majors work to solve biological problems with computational methodologies. Currently, Dr. Cho&#x27;s lab is expanding in to Finanical Tech with Julian Gilyard&#x27;s senior thesis on optionality. </p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed an efficient and parallel molecular dynamic simulation code for modeling proteins utilizing NVIDIA graphics cards</li>
+					<li class="bullet">Presided over and maintained a current $35,000 NVIDIA research grant to designate Wake Forest as a NVIDIA Research School</li>
+					<li class="bullet">Received Google CS4HS grant and conducted workshops to educate teachers on implementing technology in their classrooms</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Wake Forest Emergency Medical Services</span>
+					<span class="date">
+						2012-06-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="wfesm.org">wfesm.org</a>
+				</div>
+				<div class="position">
+					Nationally Certified Emergency Meidcal Technician
+				</div>
+				<div class="summary">
+					<p>Wake Forest Emergency Medical Services is a Nationally and State licesned medical service that provides emergency care and medical transport to the Student of Wake Forest University and the surrounding areas.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Work 16-hour shifts weekly in order to respond effectively to on-campus emergencies</li>
+					<li class="bullet">Managed budget procedures between student government, student health and the organization to purchase new equipment </li>
+					<li class="bullet">One of three students to Successfully run a CPR call</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Euzelian Society </span>
+					<span class="date">
+						2013-01-01 — 2014-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Executive Board Member--Treasurer
+				</div>
+				<div class="summary">
+					<p>Euzelian Society is the oldest organization at Wake Forest University. It is were students of a variety of background discuss philosphical ideologies that stem from current political situations and histroical literature.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Particiapted in the recharting processes to bring Euzelian Society back to campus after a 8 year hiatus.</li>
+					<li class="bullet">Created custom financial plan for the organization’s needs by creating statistical models to justify budget resources</li>
+					<li class="bullet">Allocated and maintained organizational resources through Wake Forest University’s $1.2 million budget allocation process</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Captivism</span>
+					<span class="date">
+						2015-04-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://Captivism.com/">http://Captivism.com/</a>
+				</div>
+				<div class="position">
+					Technology Consultant
+				</div>
+				<div class="summary">
+					<p>Captivism is a social activism and collaborative organiztion that seeks to connect capital to activism. It utilizes the word capital loosely as it incorporates features of social, financial and emotion captial.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Created individually locked website in order to provide beta access to individual clients</li>
+					<li class="bullet">Managed the construction of the new crowdfunding arm of the website which uses the crowdfunding platform IgnitionDeck.</li>
+					<li class="bullet">Acts as a liason for the orgnaization and other tech firms by representing Captivism at numerous conferences</li>
+					<li class="bullet">Placed Captivism in the running for a 5,000 grant award from Google in April 2016</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Wake Forest Univeristy</span>
+					<span class="date">
+						2012-06-01 — 2016-06-01
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					Bachelors
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Data Bases and Algorithms</li>
+					<li>Bioinformatics</li>
+					<li>Parallel Computing</li>
+					<li>Software Enginerring</li>
+					<li>Android Development</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Wake Forest Univeristy</span>
+					<span class="date">
+						2012-06-01 — 2016-06-01
+					</span>
+				</h4>
+				<div class="area">
+					Mathematical Economics
+				</div>
+				<div class="studyType">
+					Bachelors
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Econometrics</li>
+					<li>Game Theory</li>
+					<li>Mathematical Models</li>
+					<li>Statistical Methods</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Presentations</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SIAM-CSE 2015</span>
+				</h4>
+				<div class="datepull-right">
+					<em>Awarded</em>
+					2015-03-14
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>SIAM</strong>
+				</div>
+				<div class="summary">
+					Invited to give a lecture about NSA research and its application to distributive computing methods on large clusters
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>UMBC-SURF</span>
+				</h4>
+				<div class="datepull-right">
+					<em>Awarded</em>
+					2014-08-08
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>UMBC</strong>
+				</div>
+				<div class="summary">
+					Invited to give a lecture about radisoity, OPENMP and CUDA
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>WISE</span>
+				</h4>
+				<div class="datepull-right">
+					<em>Awarded</em>
+					2016-02-18
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Wake Forest Univeristy</strong>
+				</div>
+				<div class="summary">
+					Invited to give a lecture about Bitcoin and blockchain theology for applications to modern security
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Coarse-Grained and Atomistic MD Simulations of RNA and DNA Folding</span>
+					<span class="date">
+				
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div><br></div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Israeli Journal of Medicine</strong>
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Concurrent Solutions to Linear Systems using Hybrid CPU/GPU Nodes</span>
+					<span class="date">
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="publisher">
+				<div><br></div>
+					<em>Published by</em>
+					<strong>SIAM</strong>
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Training 21st Century Leaders to Handle 21st Century Global Governance</span>
+					<span class="date">
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div><br></div>				
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Roosevelt Institute</strong>
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>C</li>
+					<li>C++</li>
+					<li>R</li>
+					<li>LaTeX</li>
+					<li>Visual Studio</li>
+					<li>BASH</li>
+					<li>VBA</li>
+					<li>UNIX</li>
+					<li>GRETL</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Bowling</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Tenor Saxophone</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Traveling</h4>
+				</div>
+				<ul class="keywords">
+					<li>Studied Abroad in Austria</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Hiking</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Reading</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Tarock Konigrufen</h4>
+				</div>
+				<ul class="keywords">
+					<li>Austrian Card Game</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
