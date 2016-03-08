@@ -51,7 +51,7 @@ img.bottom{
     font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
     color:white;
 }
-p.article_info{
+.article_info{
     color:white;
     
 }
@@ -60,6 +60,23 @@ p.article_info{
     
 }
 
+h1.inquiry{
+        margin-top:10%;
+        text-align: center;
+        color:white;
+        font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    
+}
+#info_holder{
+    background-color: black;
+}
+a.contact{
+            
+            font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+            text-align: center;
+            left: 50%;
+}
+#middle{text-align: center}
 h3.desc{
         position: absolute;
         text-align: center;
@@ -115,12 +132,10 @@ h2.center{
     border-width: 15px;
     border-color:black;
     position: absolute;
-    margin-top: 280px;
-    margin-top: -402px;
-    left:27.5%;
+    margin-top:60px;
     text-align: center;
-    top: 65%;
-    width: 45%; 
+    width: 130%; 
+    left: -15%;
     box-shadow:
     0 0 0 10px hsl(0, 0%, 80%),
     0 0 0 15px hsl(0, 0%, 90%);
