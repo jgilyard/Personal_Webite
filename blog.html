@@ -1,14 +1,8 @@
 <html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
     <style>
-    html{
-    /*background: url(Photos/Screen_Venice.png) no-repeat center center fixed;*/
-        background-color: darkgray;
-        
-        -webkit-background-size: cover;
-        -moz-background-size:cover;
-        -o-backgound-size:cover;
-        background-size: cover;
-            }
+        body{background-color:black;
+;}
         img {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -23,8 +17,10 @@ img:hover {
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
  
 }
+    a:hover {
+        color:white;
+	text-decoration: none;}
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
     <head>
     <meta charset="utf-8">
     <title>Julian Gilyard Bio</title>
@@ -35,7 +31,7 @@ img:hover {
         <div id="nav">
         <ul class="navi">
             <li class="navi"><a  href="index.html">Home</a></li> 
-            <li class="navi"><a class="active" href="#Blog">Blog</a></li>        
+            <li class="navi"><a class="active" href="#Blog">Photo Portfolio</a></li>        
             <li class="navi"><a href="resume.html">Resume</a></li>
             <li class ="navi"><a href="publications.html">Publications</a></li>
             <li class="navi"><a href="#Inquires">Inquires</a></li>
@@ -44,7 +40,7 @@ img:hover {
         <!--<h1 class ="bio"></h1> -->
         <br><br><br>
         <h1 id="title">JS Gallery of Photo Portfolio</h1>
-        <h3 id="Subtitle">Highlight to turn color!!!</h3>
+        <!--<h3 id="Subtitle">Highlight to turn color!!!</h3>-->
         <img id ="test_gallery" class = "img-rounded" src="Photos/Test_1.jpg" >
     </body>
 </html>
