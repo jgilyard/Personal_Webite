@@ -44,6 +44,7 @@ img.bottom{
     overflow: auto;
     position: relative;
     display: inline;   
+    
 }
 #icon{
     position:fixed;bottom:0;
@@ -90,6 +91,13 @@ h2.center{
     top: 50%;
     width: 100%;    
 }
+#Subtitle
+{
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    margin-top: -9;
+}
 
 #test_gallery{
     border-style: solid;
@@ -98,13 +106,14 @@ h2.center{
     border-color:black;
     position: absolute;
     margin-top: 280px;
-    margin-top: -250px;
-    left:33.5%;
+    margin-top: -430px;
+    left:25%;
     text-align: center;
     top: 65%;
-    width: 30%; 
-    
-  
+    width: 50%; 
+    box-shadow:
+    0 0 0 10px hsl(0, 0%, 80%),
+    0 0 0 15px hsl(0, 0%, 90%);
 }
 
 p.bio{
@@ -159,6 +168,10 @@ font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvet
     padding: 14px 16px;
     text-decoration: none;
     
+}
+#title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
 }
 
 li a:hover:not(active) {

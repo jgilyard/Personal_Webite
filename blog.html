@@ -1,13 +1,30 @@
 <html>
     <style>
     html{
-    background: url(Photos/Screen_Venice.png) no-repeat center center fixed;
+    /*background: url(Photos/Screen_Venice.png) no-repeat center center fixed;*/
+        background-color: darkgray;
+        
         -webkit-background-size: cover;
         -moz-background-size:cover;
         -o-backgound-size:cover;
         background-size: cover;
             }
+        img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
     <head>
     <meta charset="utf-8">
     <title>Julian Gilyard Bio</title>
@@ -24,8 +41,10 @@
             <li class="navi"><a href="#Inquires">Inquires</a></li>
             </ul>
         </div>
-        <h1 class ="bio">Recent Photos Taken</h1>
-        <img id = "test_gallery" src="Photos/Test_1.jpg">
-
+        <!--<h1 class ="bio"></h1> -->
+        <br><br><br>
+        <h1 id="title">JS Gallery of Photo Portfolio</h1>
+        <h3 id="Subtitle">Highlight to turn color!!!</h3>
+        <img id ="test_gallery" class = "img-rounded" src="Photos/Test_1.jpg" >
     </body>
 </html>
